@@ -1,0 +1,9 @@
+<h1> Bienvenue au Yelp du Wagon </h1>
+<% @restaurants.each do |r| %>
+  <h2><%=r.name%></h2>
+  <ul>
+    <li><%=r.address%></li>
+    <li><%=r.phone_number%></li>
+    <li><%=r.category%></li>
+  </ul>
+<% end %>
